@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GJjRaiHBUjYenJfmRXtTXRwZaOBe+2d9QC8v+xu1Jn+no+cBaxKecNKRTdseP4rsBBR1nWjkZ7d+kwqkXfql2A==",
+  "success": true,
+  "projectFilePath": "D:\\Repositorios\\Blazor.Muebleria\\Blazor.Muebleria.Repositorio\\Blazor.Muebleria.Repositorio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+  ],
+  "logs": []
+}

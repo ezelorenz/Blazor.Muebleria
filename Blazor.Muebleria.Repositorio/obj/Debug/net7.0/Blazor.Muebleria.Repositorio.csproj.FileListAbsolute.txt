@@ -1,0 +1,15 @@
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\bin\Debug\net7.0\Blazor.Muebleria.Repositorio.deps.json
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\bin\Debug\net7.0\Blazor.Muebleria.Repositorio.dll
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\bin\Debug\net7.0\Blazor.Muebleria.Repositorio.pdb
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\bin\Debug\net7.0\Blazor.Muebleria.Shared.dll
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\bin\Debug\net7.0\Blazor.Muebleria.Shared.pdb
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\obj\Debug\net7.0\Blazor.Muebleria.Repositorio.csproj.AssemblyReference.cache
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\obj\Debug\net7.0\Blazor.Muebleria.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\obj\Debug\net7.0\Blazor.Muebleria.Repositorio.AssemblyInfoInputs.cache
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\obj\Debug\net7.0\Blazor.Muebleria.Repositorio.AssemblyInfo.cs
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\obj\Debug\net7.0\Blazor.Muebleria.Repositorio.csproj.CoreCompileInputs.cache
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\obj\Debug\net7.0\Blazor.Muebleria.Repositorio.csproj.CopyComplete
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\obj\Debug\net7.0\Blazor.Muebleria.Repositorio.dll
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\obj\Debug\net7.0\refint\Blazor.Muebleria.Repositorio.dll
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\obj\Debug\net7.0\Blazor.Muebleria.Repositorio.pdb
+D:\Repositorios\Blazor.Muebleria\Blazor.Muebleria.Repositorio\obj\Debug\net7.0\ref\Blazor.Muebleria.Repositorio.dll
