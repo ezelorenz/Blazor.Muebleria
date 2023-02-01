@@ -3,11 +3,14 @@
 <p>@Message</p>
 <h3>OrderDetails</h3>
 
-@if(productCategories != null && Order != null)
+@if(productCategories != null && order != null)
 {
 	<label>Categorias</label>
-	<EditForm Model="@Order">
-		<InputSelect class="form-control col-5" @bind-Value="@Order.ProductCategoryId">
+	<EditForm Model="@order">
+		<InputSelect class="form-control col-5" 
+				Value="@order.ProductCategoryId"
+				ValueChanged ="@((int categoryId) =>ProductCategoryHasChanged(categoryId))"
+				ValueExpression="@(()=> order.ProductCategoryId)">
 			@foreach (var item in productCategories)
 			{
 				<option value="@item.Id">@item.Name</option>
@@ -15,10 +18,8 @@
 		</InputSelect>
 	</EditForm>
 	<label>Productos</label>
-	<EditForm Model="@Order">
-		<InputSelect class="form-control col-5" 
-			Value="@productId"
-				 ValueChanged="@((int categoryId))">
+	<EditForm Model="@order">
+		<InputSelect class="form-control col-5" @bind-Value="@productId">
 			@foreach (var item in products)
 			{
 				<option value="@item.Id">@item.Name</option>
@@ -33,7 +34,7 @@ else
 
 
 @code {
-	public Order Order;
+	public Order order;
 	public IEnumerable<ProductCategory> productCategories;
 	public IEnumerable<Product> products;
 	public int productId { get; set; }
@@ -43,14 +44,26 @@ else
 	{
 		try
 		{
-			Order = new Order();
+			order = new Order() { ProductCategoryId = 1};
 			productCategories = await ProductCategoryService.GetProductCategories();
-
+			await LoadProducts(order.ProductCategoryId);
 		}
 		catch(Exception ex)
 		{
 			Message = "Ha ocurrido un error..." + ex.Message;
 		}
-		
+	}
+
+	protected async Task ProductCategoryHasChanged(int categoryId)
+	{
+		order.ProductCategoryId = categoryId;
+
+		if (order.ProductCategoryId > 0)
+			await LoadProducts(order.ProductCategoryId);
+	}
+
+	private async Task LoadProducts(int categoryId)
+	{
+		// products = await 
 	}
 }
